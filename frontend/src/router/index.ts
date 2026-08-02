@@ -19,6 +19,11 @@ const router = createRouter({
       component: () => import('../views/Register.vue'),
     },
     {
+      path: '/scene',
+      name: 'scene-3d',
+      component: () => import('../views/Scene3D.vue'),
+    },
+    {
       path: '/product/:id',
       name: 'product-detail',
       component: () => import('../views/ProductDetail.vue'),

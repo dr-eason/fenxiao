@@ -16,6 +16,7 @@
       <van-cell title="我的订单" icon="orders-o" is-link to="/orders" />
       <van-cell title="分销中心" icon="chart-trending-o" is-link to="/distribution" />
       <van-cell title="我的团队" icon="friends-o" is-link to="/team" />
+      <van-cell title="3D 场景漫游" icon="play-circle-o" is-link to="/scene" />
     </van-cell-group>
 
     <div style="padding: 24px 16px;">
